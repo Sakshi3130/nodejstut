@@ -1,0 +1,41 @@
+body{
+    background-color: lightpink;
+}
+main{
+    align-items: center;
+}
+.formclass{
+    padding: 2rem;
+    text-align: center;
+    margin-top: 8rem;
+    height:23rem;
+    width: 30rem;
+    margin-left: 33rem;
+    background-color: white;
+}
+form{
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 5rem; */
+}
+input{
+    width:20rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(246, 246, 246);
+}
+button{
+    margin-top: 1rem;
+    width:5rem;
+    height:2rem;background-color: rgb(212, 165, 255);
+    border-style: hidden;
+    border-radius: 2px;
+}
+
+.error{
+    color:red;
+    text-align: right;
+    font-size: 0.7rem;
+}
